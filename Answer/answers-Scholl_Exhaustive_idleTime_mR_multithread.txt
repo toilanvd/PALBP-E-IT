@@ -1,0 +1,179 @@
+[FILE: Test-SAbaseline\Scholl-tests\Bowman.txt]  
+Optimal idleTime = 1.000 (R = 11.000)
+3 workstations
+Workstation 1: 1 2 4 -- W: 3, S: 1, T: 33.000, Rj: 11.000 (idle: 0.000)
+Workstation 2: 3 6 -- W: 2, S: 1, T: 21.000, Rj: 10.500 (idle: 0.500)
+Workstation 3: 5 7 8 -- W: 2, S: 1, T: 21.000, Rj: 10.500 (idle: 0.500)
+7 workers, 3 saved
+Wall time : 0.002s
+Total iterations: 2
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Buxey.txt]  
+Optimal idleTime = 2.000 (R = 11.333)
+11 workstations
+Workstation 1: 1 2 7 -- W: 3, S: 1, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 2: 3 4 9 -- W: 2, S: 2, T: 22.000, Rj: 11.000 (idle: 0.333)
+Workstation 3: 5 8 10 -- W: 3, S: 2, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 4: 6 12 25 -- W: 3, S: 1, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 5: 11 21 -- W: 2, S: 1, T: 22.000, Rj: 11.000 (idle: 0.333)
+Workstation 6: 13 26 -- W: 1, S: 1, T: 11.000, Rj: 11.000 (idle: 0.333)
+Workstation 7: 14 17 20 -- W: 3, S: 2, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 8: 15 19 27 -- W: 3, S: 1, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 9: 16 18 22 -- W: 3, S: 1, T: 33.000, Rj: 11.000 (idle: 0.333)
+Workstation 10: 23 28 -- W: 3, S: 1, T: 32.000, Rj: 10.667 (idle: 0.667)
+Workstation 11: 24 29 -- W: 3, S: 1, T: 34.000, Rj: 11.333 (idle: 0.000)
+29 workers, 14 saved
+Wall time : 65.714s
+Total iterations: 68
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Gunther.txt]  
+Optimal idleTime = 5.333 (R = 16.000)
+15 workstations
+Workstation 1: 1 17 -- W: 2, S: 1, T: 31.000, Rj: 15.500 (idle: 0.500)
+Workstation 2: 2 3 4 -- W: 2, S: 2, T: 30.000, Rj: 15.000 (idle: 1.000)
+Workstation 3: 5 11 -- W: 2, S: 1, T: 29.000, Rj: 14.500 (idle: 1.500)
+Workstation 4: 6 7 -- W: 1, S: 1, T: 16.000, Rj: 16.000 (idle: 0.000)
+Workstation 5: 8 9 25 -- W: 2, S: 2, T: 32.000, Rj: 16.000 (idle: 0.000)
+Workstation 6: 10 14 -- W: 2, S: 1, T: 32.000, Rj: 16.000 (idle: 0.000)
+Workstation 7: 12 18 -- W: 2, S: 1, T: 32.000, Rj: 16.000 (idle: 0.000)
+Workstation 8: 13 24 -- W: 3, S: 1, T: 46.000, Rj: 15.333 (idle: 0.667)
+Workstation 9: 15 16 -- W: 3, S: 1, T: 48.000, Rj: 16.000 (idle: 0.000)
+Workstation 10: 19 20 -- W: 3, S: 1, T: 48.000, Rj: 16.000 (idle: 0.000)
+Workstation 11: 21 30 31 -- W: 1, S: 2, T: 16.000, Rj: 16.000 (idle: 0.000)
+Workstation 12: 22 26 32 -- W: 1, S: 2, T: 16.000, Rj: 16.000 (idle: 0.000)
+Workstation 13: 23 -- W: 1, S: 0, T: 16.000, Rj: 16.000 (idle: 0.000)
+Workstation 14: 27 28 29 -- W: 3, S: 2, T: 47.000, Rj: 15.667 (idle: 0.333)
+Workstation 15: 33 34 35 -- W: 3, S: 2, T: 44.000, Rj: 14.667 (idle: 1.333)
+31 workers, 20 saved
+Wall time : 30208.335s
+Total iterations: 5167
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Heskia.txt]  
+Optimal idleTime = 2.667 (R = 39.667)
+10 workstations
+Workstation 1: 1 5 22 -- W: 2, S: 2, T: 79.000, Rj: 39.500 (idle: 0.167)
+Workstation 2: 2 6 9 -- W: 3, S: 1, T: 117.000, Rj: 39.000 (idle: 0.667)
+Workstation 3: 3 7 20 -- W: 3, S: 1, T: 117.000, Rj: 39.000 (idle: 0.667)
+Workstation 4: 4 11 14 -- W: 2, S: 2, T: 79.000, Rj: 39.500 (idle: 0.167)
+Workstation 5: 8 21 -- W: 2, S: 1, T: 79.000, Rj: 39.500 (idle: 0.167)
+Workstation 6: 10 12 19 -- W: 3, S: 2, T: 119.000, Rj: 39.667 (idle: 0.000)
+Workstation 7: 13 16 23 -- W: 3, S: 2, T: 119.000, Rj: 39.667 (idle: 0.000)
+Workstation 8: 15 27 28 -- W: 2, S: 2, T: 79.000, Rj: 39.500 (idle: 0.167)
+Workstation 9: 17 24 -- W: 3, S: 1, T: 118.000, Rj: 39.333 (idle: 0.333)
+Workstation 10: 18 25 26 -- W: 3, S: 2, T: 118.000, Rj: 39.333 (idle: 0.333)
+26 workers, 16 saved
+Wall time : 233.321s
+Total iterations: 534
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Jackson.txt]  
+Optimal idleTime = 0.333 (R = 4.667)
+4 workstations
+Workstation 1: 1 2 5 -- W: 2, S: 2, T: 9.000, Rj: 4.500 (idle: 0.167)
+Workstation 2: 3 4 6 -- W: 3, S: 2, T: 14.000, Rj: 4.667 (idle: 0.000)
+Workstation 3: 7 8 9 -- W: 3, S: 2, T: 14.000, Rj: 4.667 (idle: 0.000)
+Workstation 4: 10 11 -- W: 2, S: 1, T: 9.000, Rj: 4.500 (idle: 0.167)
+10 workers, 7 saved
+Wall time : 0.005s
+Total iterations: 7
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Jaeschke.txt]  
+Optimal idleTime = 0.667 (R = 4.333)
+3 workstations
+Workstation 1: 1 2 3 -- W: 3, S: 1, T: 12.000, Rj: 4.000 (idle: 0.333)
+Workstation 2: 4 5 8 -- W: 3, S: 1, T: 13.000, Rj: 4.333 (idle: 0.000)
+Workstation 3: 6 7 9 -- W: 3, S: 2, T: 12.000, Rj: 4.000 (idle: 0.333)
+9 workers, 4 saved
+Wall time : 0.002s
+Total iterations: 4
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Lutz1.txt]  
+Optimal idleTime = 253.667 (R = 543.000)
+12 workstations
+Workstation 1: 1 2 5 -- W: 2, S: 1, T: 1086.000, Rj: 543.000 (idle: 0.000)
+Workstation 2: 3 -- W: 1, S: 0, T: 520.000, Rj: 520.000 (idle: 23.000)
+Workstation 3: 4 6 -- W: 3, S: 1, T: 1596.000, Rj: 532.000 (idle: 11.000)
+Workstation 4: 7 20 -- W: 1, S: 1, T: 538.000, Rj: 538.000 (idle: 5.000)
+Workstation 5: 8 15 16 -- W: 3, S: 1, T: 1608.000, Rj: 536.000 (idle: 7.000)
+Workstation 6: 9 10 11 -- W: 3, S: 1, T: 1566.000, Rj: 522.000 (idle: 21.000)
+Workstation 7: 12 13 14 -- W: 2, S: 2, T: 1008.000, Rj: 504.000 (idle: 39.000)
+Workstation 8: 17 18 19 -- W: 3, S: 2, T: 1622.000, Rj: 540.667 (idle: 2.333)
+Workstation 9: 21 22 23 -- W: 2, S: 2, T: 996.000, Rj: 498.000 (idle: 45.000)
+Workstation 10: 24 31 32 -- W: 2, S: 1, T: 954.000, Rj: 477.000 (idle: 66.000)
+Workstation 11: 25 26 27 -- W: 3, S: 1, T: 1628.000, Rj: 542.667 (idle: 0.333)
+Workstation 12: 28 29 30 -- W: 2, S: 1, T: 1018.000, Rj: 509.000 (idle: 34.000)
+27 workers, 14 saved
+Wall time : 34.699s
+Total iterations: 6
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Mansoor.txt]  
+Optimal idleTime = 2.500 (R = 27.000)
+4 workstations
+Workstation 1: 1 2 5 -- W: 2, S: 2, T: 52.000, Rj: 26.000 (idle: 1.000)
+Workstation 2: 3 6 -- W: 2, S: 1, T: 53.000, Rj: 26.500 (idle: 0.500)
+Workstation 3: 4 7 9 -- W: 1, S: 2, T: 26.000, Rj: 26.000 (idle: 1.000)
+Workstation 4: 8 10 11 -- W: 2, S: 2, T: 54.000, Rj: 27.000 (idle: 0.000)
+7 workers, 7 saved
+Wall time : 0.004s
+Total iterations: 1
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Mertens.txt]  
+[Iteration 1] Best so far: idleTime = 0.167 (R = 3.667)
+Optimal idleTime = 0.167 (R = 3.667)
+3 workstations
+Workstation 1: 1 2 5 -- W: 3, S: 2, T: 11.000, Rj: 3.667 (idle: 0.000)
+Workstation 2: 3 4 -- W: 2, S: 1, T: 7.000, Rj: 3.500 (idle: 0.167)
+Workstation 3: 6 7 -- W: 3, S: 1, T: 11.000, Rj: 3.667 (idle: 0.000)
+8 workers, 4 saved
+Wall time : 0.005s
+Total iterations: 1
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Mitchell.txt]  
+Optimal idleTime = 1.000 (R = 6.000)
+9 workstations
+Workstation 1: 1 3 4 -- W: 3, S: 1, T: 18.000, Rj: 6.000 (idle: 0.000)
+Workstation 2: 2 5 -- W: 2, S: 1, T: 12.000, Rj: 6.000 (idle: 0.000)
+Workstation 3: 6 7 -- W: 2, S: 1, T: 12.000, Rj: 6.000 (idle: 0.000)
+Workstation 4: 8 9 11 -- W: 3, S: 1, T: 15.000, Rj: 5.000 (idle: 1.000)
+Workstation 5: 10 13 -- W: 1, S: 1, T: 6.000, Rj: 6.000 (idle: 0.000)
+Workstation 6: 12 15 -- W: 1, S: 1, T: 6.000, Rj: 6.000 (idle: 0.000)
+Workstation 7: 14 16 -- W: 1, S: 1, T: 6.000, Rj: 6.000 (idle: 0.000)
+Workstation 8: 17 18 -- W: 3, S: 1, T: 18.000, Rj: 6.000 (idle: 0.000)
+Workstation 9: 19 20 21 -- W: 2, S: 2, T: 12.000, Rj: 6.000 (idle: 0.000)
+18 workers, 10 saved
+Wall time : 0.094s
+Total iterations: 14
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Roszieg.txt]  
+Optimal idleTime = 0.500 (R = 7.000)
+9 workstations
+Workstation 1: 1 2 -- W: 1, S: 1, T: 7.000, Rj: 7.000 (idle: 0.000)
+Workstation 2: 3 4 8 -- W: 3, S: 1, T: 21.000, Rj: 7.000 (idle: 0.000)
+Workstation 3: 5 6 7 -- W: 3, S: 2, T: 21.000, Rj: 7.000 (idle: 0.000)
+Workstation 4: 9 11 13 -- W: 2, S: 1, T: 13.000, Rj: 6.500 (idle: 0.500)
+Workstation 5: 10 16 23 -- W: 1, S: 2, T: 7.000, Rj: 7.000 (idle: 0.000)
+Workstation 6: 12 14 20 -- W: 1, S: 2, T: 7.000, Rj: 7.000 (idle: 0.000)
+Workstation 7: 15 19 21 -- W: 2, S: 1, T: 14.000, Rj: 7.000 (idle: 0.000)
+Workstation 8: 17 24 -- W: 3, S: 1, T: 21.000, Rj: 7.000 (idle: 0.000)
+Workstation 9: 18 22 25 -- W: 2, S: 1, T: 14.000, Rj: 7.000 (idle: 0.000)
+18 workers, 12 saved
+Wall time : 0.225s
+Total iterations: 112
+ 
+[FILE: Test-SAbaseline\Scholl-tests\Sawyer.txt]  
+Optimal idleTime = 2.000 (R = 11.333)
+11 workstations
+Workstation 1: 1 2 3 -- W: 3, S: 1, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 2: 4 5 16 -- W: 2, S: 1, T: 22.000, Rj: 11.000 (idle: 0.333)
+Workstation 3: 6 14 20 -- W: 3, S: 2, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 4: 7 8 18 -- W: 3, S: 1, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 5: 9 21 -- W: 2, S: 1, T: 22.000, Rj: 11.000 (idle: 0.333)
+Workstation 6: 10 22 23 -- W: 3, S: 2, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 7: 11 12 13 -- W: 3, S: 2, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 8: 15 17 -- W: 1, S: 1, T: 11.000, Rj: 11.000 (idle: 0.333)
+Workstation 9: 19 29 30 -- W: 3, S: 2, T: 34.000, Rj: 11.333 (idle: 0.000)
+Workstation 10: 24 25 26 -- W: 3, S: 1, T: 33.000, Rj: 11.000 (idle: 0.333)
+Workstation 11: 27 28 -- W: 3, S: 1, T: 32.000, Rj: 10.667 (idle: 0.667)
+29 workers, 15 saved
+Wall time : 1117.928s
+Total iterations: 59
+ 
