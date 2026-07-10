@@ -1,0 +1,304 @@
+[FILE: Test\TestPL15-1.txt] [RUN: 1]  
+Optimal idleTime = 88.667 (R = 36.000, avgRj = 27.939)
+11 workstations
+Workstation 1: 1 -- W: 1, S: 0, T: 30.000, Rj: 30.000 (idle: 6.000)
+Workstation 2: 2 10 -- W: 1, S: 1, T: 34.000, Rj: 34.000 (idle: 2.000)
+Workstation 3: 3 6 -- W: 2, S: 1, T: 72.000, Rj: 36.000 (idle: 0.000)
+Workstation 4: 4 -- W: 1, S: 0, T: 24.000, Rj: 24.000 (idle: 12.000)
+Workstation 5: 5 -- W: 1, S: 0, T: 20.000, Rj: 20.000 (idle: 16.000)
+Workstation 6: 7 -- W: 2, S: 0, T: 46.000, Rj: 23.000 (idle: 13.000)
+Workstation 7: 8 9 -- W: 3, S: 0, T: 90.000, Rj: 30.000 (idle: 6.000)
+Workstation 8: 11 -- W: 2, S: 0, T: 42.000, Rj: 21.000 (idle: 15.000)
+Workstation 9: 12 13 -- W: 3, S: 1, T: 85.000, Rj: 28.333 (idle: 7.667)
+Workstation 10: 14 -- W: 1, S: 0, T: 31.000, Rj: 31.000 (idle: 5.000)
+Workstation 11: 15 -- W: 1, S: 0, T: 30.000, Rj: 30.000 (idle: 6.000)
+18 workers, 3 saved
+Wall time : 3.550s
+ 
+[FILE: Test\TestPL15-2.txt] [RUN: 1]  
+Optimal idleTime = 59.167 (R = 24.000, avgRj = 19.449)
+13 workstations
+Workstation 1: 1 -- W: 2, S: 0, T: 30.000, Rj: 15.000 (idle: 9.000)
+Workstation 2: 2 10 -- W: 2, S: 1, T: 34.000, Rj: 17.000 (idle: 7.000)
+Workstation 3: 3 6 -- W: 3, S: 1, T: 72.000, Rj: 24.000 (idle: 0.000)
+Workstation 4: 4 -- W: 1, S: 0, T: 24.000, Rj: 24.000 (idle: 0.000)
+Workstation 5: 5 -- W: 1, S: 0, T: 20.000, Rj: 20.000 (idle: 4.000)
+Workstation 6: 7 -- W: 2, S: 0, T: 46.000, Rj: 23.000 (idle: 1.000)
+Workstation 7: 8 -- W: 2, S: 0, T: 35.000, Rj: 17.500 (idle: 6.500)
+Workstation 8: 9 -- W: 3, S: 0, T: 55.000, Rj: 18.333 (idle: 5.667)
+Workstation 9: 11 -- W: 2, S: 0, T: 42.000, Rj: 21.000 (idle: 3.000)
+Workstation 10: 12 -- W: 2, S: 0, T: 40.000, Rj: 20.000 (idle: 4.000)
+Workstation 11: 13 -- W: 2, S: 0, T: 45.000, Rj: 22.500 (idle: 1.500)
+Workstation 12: 14 -- W: 2, S: 0, T: 31.000, Rj: 15.500 (idle: 8.500)
+Workstation 13: 15 -- W: 2, S: 0, T: 30.000, Rj: 15.000 (idle: 9.000)
+26 workers, 2 saved
+Wall time : 3.564s
+ 
+[FILE: Test\TestPL20-1.txt] [RUN: 1]  
+Optimal idleTime = 30.500 (R = 32.500, avgRj = 29.111)
+9 workstations
+Workstation 1: 1 2 8 -- W: 2, S: 2, T: 65.000, Rj: 32.500 (idle: 0.000)
+Workstation 2: 3 4 13 -- W: 3, S: 2, T: 91.000, Rj: 30.333 (idle: 2.167)
+Workstation 3: 5 7 -- W: 1, S: 1, T: 31.000, Rj: 31.000 (idle: 1.500)
+Workstation 4: 6 9 10 -- W: 3, S: 1, T: 82.000, Rj: 27.333 (idle: 5.167)
+Workstation 5: 11 12 -- W: 3, S: 1, T: 85.000, Rj: 28.333 (idle: 4.167)
+Workstation 6: 14 15 -- W: 1, S: 1, T: 29.000, Rj: 29.000 (idle: 3.500)
+Workstation 7: 16 -- W: 2, S: 0, T: 42.000, Rj: 21.000 (idle: 11.500)
+Workstation 8: 17 -- W: 1, S: 0, T: 32.000, Rj: 32.000 (idle: 0.500)
+Workstation 9: 18 19 20 -- W: 2, S: 1, T: 61.000, Rj: 30.500 (idle: 2.000)
+18 workers, 9 saved
+Wall time : 4.716s
+ 
+[FILE: Test\TestPL20-2.txt] [RUN: 1]  
+Optimal idleTime = 27.833 (R = 16.500, avgRj = 14.512)
+14 workstations
+Workstation 1: 1 8 -- W: 3, S: 0, T: 43.000, Rj: 14.333 (idle: 2.167)
+Workstation 2: 2 3 -- W: 3, S: 1, T: 42.000, Rj: 14.000 (idle: 2.500)
+Workstation 3: 4 -- W: 3, S: 0, T: 38.000, Rj: 12.667 (idle: 3.833)
+Workstation 4: 5 6 7 -- W: 3, S: 1, T: 42.000, Rj: 14.000 (idle: 2.500)
+Workstation 5: 9 -- W: 3, S: 0, T: 43.000, Rj: 14.333 (idle: 2.167)
+Workstation 6: 10 -- W: 2, S: 0, T: 28.000, Rj: 14.000 (idle: 2.500)
+Workstation 7: 11 -- W: 3, S: 0, T: 37.000, Rj: 12.333 (idle: 4.167)
+Workstation 8: 12 -- W: 3, S: 0, T: 48.000, Rj: 16.000 (idle: 0.500)
+Workstation 9: 13 -- W: 2, S: 0, T: 33.000, Rj: 16.500 (idle: 0.000)
+Workstation 10: 14 15 -- W: 2, S: 1, T: 29.000, Rj: 14.500 (idle: 2.000)
+Workstation 11: 16 -- W: 3, S: 0, T: 42.000, Rj: 14.000 (idle: 2.500)
+Workstation 12: 17 -- W: 2, S: 0, T: 32.000, Rj: 16.000 (idle: 0.500)
+Workstation 13: 18 19 -- W: 2, S: 1, T: 33.000, Rj: 16.500 (idle: 0.000)
+Workstation 14: 20 -- W: 2, S: 0, T: 28.000, Rj: 14.000 (idle: 2.500)
+36 workers, 4 saved
+Wall time : 5.599s
+ 
+[FILE: Test\TestPL26-1.txt] [RUN: 1]  
+Optimal idleTime = 115.533 (R = 42.700, avgRj = 35.479)
+16 workstations
+Workstation 1: 1 -- W: 1, S: 0, T: 35.000, Rj: 35.000 (idle: 7.700)
+Workstation 2: 2 5 -- W: 2, S: 1, T: 85.100, Rj: 42.550 (idle: 0.150)
+Workstation 3: 3 -- W: 3, S: 0, T: 118.500, Rj: 39.500 (idle: 3.200)
+Workstation 4: 4 8 -- W: 1, S: 1, T: 35.200, Rj: 35.200 (idle: 7.500)
+Workstation 5: 6 7 9 -- W: 1, S: 2, T: 36.500, Rj: 36.500 (idle: 6.200)
+Workstation 6: 10 18 -- W: 1, S: 1, T: 42.700, Rj: 42.700 (idle: 0.000)
+Workstation 7: 11 -- W: 1, S: 0, T: 32.400, Rj: 32.400 (idle: 10.300)
+Workstation 8: 12 19 -- W: 3, S: 1, T: 110.900, Rj: 36.967 (idle: 5.733)
+Workstation 9: 13 26 -- W: 2, S: 1, T: 79.900, Rj: 39.950 (idle: 2.750)
+Workstation 10: 14 -- W: 1, S: 0, T: 24.800, Rj: 24.800 (idle: 17.900)
+Workstation 11: 15 -- W: 2, S: 0, T: 61.400, Rj: 30.700 (idle: 12.000)
+Workstation 12: 16 -- W: 1, S: 0, T: 30.800, Rj: 30.800 (idle: 11.900)
+Workstation 13: 17 -- W: 1, S: 0, T: 41.600, Rj: 41.600 (idle: 1.100)
+Workstation 14: 20 21 -- W: 1, S: 1, T: 36.000, Rj: 36.000 (idle: 6.700)
+Workstation 15: 22 23 24 -- W: 1, S: 2, T: 36.000, Rj: 36.000 (idle: 6.700)
+Workstation 16: 25 -- W: 1, S: 0, T: 27.000, Rj: 27.000 (idle: 15.700)
+23 workers, 10 saved
+Wall time : 8.084s
+ 
+[FILE: Test\TestPL26-2.txt] [RUN: 1]  
+Optimal idleTime = 112.883 (R = 39.500, avgRj = 32.445)
+16 workstations
+Workstation 1: 1 -- W: 1, S: 0, T: 35.000, Rj: 35.000 (idle: 4.500)
+Workstation 2: 2 5 -- W: 3, S: 0, T: 85.100, Rj: 28.367 (idle: 11.133)
+Workstation 3: 3 -- W: 3, S: 0, T: 118.500, Rj: 39.500 (idle: 0.000)
+Workstation 4: 4 8 -- W: 1, S: 1, T: 35.200, Rj: 35.200 (idle: 4.300)
+Workstation 5: 6 9 -- W: 1, S: 1, T: 26.500, Rj: 26.500 (idle: 13.000)
+Workstation 6: 7 10 -- W: 1, S: 1, T: 37.300, Rj: 37.300 (idle: 2.200)
+Workstation 7: 11 -- W: 1, S: 0, T: 32.400, Rj: 32.400 (idle: 7.100)
+Workstation 8: 12 -- W: 3, S: 0, T: 87.900, Rj: 29.300 (idle: 10.200)
+Workstation 9: 13 -- W: 2, S: 0, T: 43.900, Rj: 21.950 (idle: 17.550)
+Workstation 10: 14 -- W: 1, S: 0, T: 24.800, Rj: 24.800 (idle: 14.700)
+Workstation 11: 15 -- W: 2, S: 0, T: 61.400, Rj: 30.700 (idle: 8.800)
+Workstation 12: 16 17 -- W: 2, S: 1, T: 72.400, Rj: 36.200 (idle: 3.300)
+Workstation 13: 18 19 -- W: 1, S: 1, T: 38.400, Rj: 38.400 (idle: 1.100)
+Workstation 14: 20 21 -- W: 1, S: 1, T: 36.000, Rj: 36.000 (idle: 3.500)
+Workstation 15: 22 23 24 -- W: 1, S: 2, T: 36.000, Rj: 36.000 (idle: 3.500)
+Workstation 16: 25 26 -- W: 2, S: 0, T: 63.000, Rj: 31.500 (idle: 8.000)
+26 workers, 8 saved
+Wall time : 7.695s
+ 
+[FILE: Test\TestPL30-1.txt] [RUN: 1]  
+Optimal idleTime = 215.533 (R = 43.900, avgRj = 33.123)
+20 workstations
+Workstation 1: 1 -- W: 1, S: 0, T: 35.000, Rj: 35.000 (idle: 8.900)
+Workstation 2: 2 6 -- W: 1, S: 1, T: 30.800, Rj: 30.800 (idle: 13.100)
+Workstation 3: 3 4 -- W: 3, S: 0, T: 96.800, Rj: 32.267 (idle: 11.633)
+Workstation 4: 5 8 -- W: 1, S: 1, T: 32.000, Rj: 32.000 (idle: 11.900)
+Workstation 5: 7 9 -- W: 1, S: 1, T: 35.200, Rj: 35.200 (idle: 8.700)
+Workstation 6: 10 20 -- W: 1, S: 1, T: 21.500, Rj: 21.500 (idle: 22.400)
+Workstation 7: 11 -- W: 1, S: 0, T: 37.300, Rj: 37.300 (idle: 6.600)
+Workstation 8: 12 -- W: 1, S: 0, T: 19.800, Rj: 19.800 (idle: 24.100)
+Workstation 9: 13 14 -- W: 2, S: 1, T: 64.600, Rj: 32.300 (idle: 11.600)
+Workstation 10: 15 -- W: 3, S: 0, T: 112.200, Rj: 37.400 (idle: 6.500)
+Workstation 11: 16 -- W: 1, S: 0, T: 43.900, Rj: 43.900 (idle: 0.000)
+Workstation 12: 17 -- W: 1, S: 0, T: 24.800, Rj: 24.800 (idle: 19.100)
+Workstation 13: 18 -- W: 2, S: 0, T: 61.400, Rj: 30.700 (idle: 13.200)
+Workstation 14: 19 -- W: 1, S: 0, T: 41.600, Rj: 41.600 (idle: 2.300)
+Workstation 15: 21 -- W: 3, S: 0, T: 112.500, Rj: 37.500 (idle: 6.400)
+Workstation 16: 22 23 -- W: 1, S: 1, T: 35.400, Rj: 35.400 (idle: 8.500)
+Workstation 17: 24 25 -- W: 1, S: 1, T: 36.000, Rj: 36.000 (idle: 7.900)
+Workstation 18: 26 27 28 -- W: 1, S: 2, T: 36.000, Rj: 36.000 (idle: 7.900)
+Workstation 19: 29 -- W: 1, S: 0, T: 27.000, Rj: 27.000 (idle: 16.900)
+Workstation 20: 30 -- W: 1, S: 0, T: 36.000, Rj: 36.000 (idle: 7.900)
+28 workers, 9 saved
+Wall time : 10.857s
+ 
+[FILE: Test\TestPL30-2.txt] [RUN: 1]  
+Optimal idleTime = 130.283 (R = 37.500, avgRj = 30.986)
+20 workstations
+Workstation 1: 1 -- W: 1, S: 0, T: 35.000, Rj: 35.000 (idle: 2.500)
+Workstation 2: 2 6 -- W: 1, S: 1, T: 30.800, Rj: 30.800 (idle: 6.700)
+Workstation 3: 3 4 -- W: 3, S: 1, T: 96.800, Rj: 32.267 (idle: 5.233)
+Workstation 4: 5 8 -- W: 1, S: 1, T: 32.000, Rj: 32.000 (idle: 5.500)
+Workstation 5: 7 10 -- W: 1, S: 1, T: 23.500, Rj: 23.500 (idle: 14.000)
+Workstation 6: 9 20 -- W: 1, S: 1, T: 33.200, Rj: 33.200 (idle: 4.300)
+Workstation 7: 11 -- W: 1, S: 0, T: 37.300, Rj: 37.300 (idle: 0.200)
+Workstation 8: 12 -- W: 1, S: 0, T: 19.800, Rj: 19.800 (idle: 17.700)
+Workstation 9: 13 14 -- W: 2, S: 1, T: 64.600, Rj: 32.300 (idle: 5.200)
+Workstation 10: 15 -- W: 3, S: 0, T: 112.200, Rj: 37.400 (idle: 0.100)
+Workstation 11: 16 -- W: 2, S: 0, T: 43.900, Rj: 21.950 (idle: 15.550)
+Workstation 12: 17 -- W: 1, S: 0, T: 24.800, Rj: 24.800 (idle: 12.700)
+Workstation 13: 18 -- W: 2, S: 0, T: 61.400, Rj: 30.700 (idle: 6.800)
+Workstation 14: 19 -- W: 2, S: 0, T: 41.600, Rj: 20.800 (idle: 16.700)
+Workstation 15: 21 -- W: 3, S: 0, T: 112.500, Rj: 37.500 (idle: 0.000)
+Workstation 16: 22 23 -- W: 1, S: 1, T: 35.400, Rj: 35.400 (idle: 2.100)
+Workstation 17: 24 25 -- W: 1, S: 1, T: 36.000, Rj: 36.000 (idle: 1.500)
+Workstation 18: 26 27 28 -- W: 1, S: 2, T: 36.000, Rj: 36.000 (idle: 1.500)
+Workstation 19: 29 -- W: 1, S: 0, T: 27.000, Rj: 27.000 (idle: 10.500)
+Workstation 20: 30 -- W: 1, S: 0, T: 36.000, Rj: 36.000 (idle: 1.500)
+30 workers, 10 saved
+Wall time : 11.192s
+ 
+[FILE: Test\TestPL32-1.txt] [RUN: 1]  
+Optimal idleTime = 160.500 (R = 93.000, avgRj = 81.536)
+14 workstations
+Workstation 1: 1 25 27 -- W: 1, S: 2, T: 92.000, Rj: 92.000 (idle: 1.000)
+Workstation 2: 2 12 -- W: 1, S: 1, T: 88.000, Rj: 88.000 (idle: 5.000)
+Workstation 3: 3 13 -- W: 1, S: 1, T: 87.000, Rj: 87.000 (idle: 6.000)
+Workstation 4: 4 8 10 -- W: 3, S: 2, T: 279.000, Rj: 93.000 (idle: 0.000)
+Workstation 5: 5 11 14 -- W: 1, S: 2, T: 85.000, Rj: 85.000 (idle: 8.000)
+Workstation 6: 6 7 -- W: 1, S: 1, T: 91.000, Rj: 91.000 (idle: 2.000)
+Workstation 7: 9 20 -- W: 2, S: 0, T: 115.000, Rj: 57.500 (idle: 35.500)
+Workstation 8: 15 16 -- W: 2, S: 1, T: 181.000, Rj: 90.500 (idle: 2.500)
+Workstation 9: 17 18 19 -- W: 1, S: 2, T: 70.000, Rj: 70.000 (idle: 23.000)
+Workstation 10: 21 -- W: 2, S: 0, T: 115.000, Rj: 57.500 (idle: 35.500)
+Workstation 11: 22 23 -- W: 1, S: 1, T: 91.000, Rj: 91.000 (idle: 2.000)
+Workstation 12: 24 26 -- W: 2, S: 0, T: 132.000, Rj: 66.000 (idle: 27.000)
+Workstation 13: 28 29 30 -- W: 1, S: 2, T: 89.000, Rj: 89.000 (idle: 4.000)
+Workstation 14: 31 32 -- W: 1, S: 1, T: 84.000, Rj: 84.000 (idle: 9.000)
+20 workers, 16 saved
+Wall time : 10.308s
+ 
+[FILE: Test\TestPL32-2.txt] [RUN: 1]  
+Optimal idleTime = 68.500 (R = 64.667, avgRj = 59.774)
+14 workstations
+Workstation 1: 1 10 11 -- W: 1, S: 2, T: 62.000, Rj: 62.000 (idle: 2.667)
+Workstation 2: 2 -- W: 1, S: 0, T: 63.000, Rj: 63.000 (idle: 1.667)
+Workstation 3: 3 12 13 -- W: 2, S: 1, T: 112.000, Rj: 56.000 (idle: 8.667)
+Workstation 4: 4 5 14 -- W: 3, S: 2, T: 150.000, Rj: 50.000 (idle: 14.667)
+Workstation 5: 6 15 25 -- W: 2, S: 1, T: 129.000, Rj: 64.500 (idle: 0.167)
+Workstation 6: 7 16 -- W: 3, S: 0, T: 183.000, Rj: 61.000 (idle: 3.667)
+Workstation 7: 8 -- W: 3, S: 0, T: 194.000, Rj: 64.667 (idle: 0.000)
+Workstation 8: 9 20 -- W: 2, S: 1, T: 115.000, Rj: 57.500 (idle: 7.167)
+Workstation 9: 17 18 -- W: 1, S: 1, T: 60.000, Rj: 60.000 (idle: 4.667)
+Workstation 10: 19 22 -- W: 1, S: 1, T: 60.000, Rj: 60.000 (idle: 4.667)
+Workstation 11: 21 -- W: 2, S: 0, T: 115.000, Rj: 57.500 (idle: 7.167)
+Workstation 12: 23 24 26 -- W: 3, S: 1, T: 173.000, Rj: 57.667 (idle: 7.000)
+Workstation 13: 27 28 29 -- W: 1, S: 2, T: 63.000, Rj: 63.000 (idle: 1.667)
+Workstation 14: 30 31 32 -- W: 2, S: 2, T: 120.000, Rj: 60.000 (idle: 4.667)
+27 workers, 14 saved
+Wall time : 11.551s
+ 
+[FILE: Test\TestPL33-1.txt] [RUN: 1]  
+Optimal idleTime = 538.167 (R = 97.667, avgRj = 70.758)
+20 workstations
+Workstation 1: 1 19 -- W: 1, S: 1, T: 95.000, Rj: 95.000 (idle: 2.667)
+Workstation 2: 2 27 -- W: 1, S: 1, T: 81.000, Rj: 81.000 (idle: 16.667)
+Workstation 3: 3 24 -- W: 1, S: 1, T: 58.000, Rj: 58.000 (idle: 39.667)
+Workstation 4: 4 5 -- W: 2, S: 1, T: 166.000, Rj: 83.000 (idle: 14.667)
+Workstation 5: 6 11 12 -- W: 3, S: 1, T: 256.000, Rj: 85.333 (idle: 12.333)
+Workstation 6: 7 -- W: 1, S: 0, T: 46.000, Rj: 46.000 (idle: 51.667)
+Workstation 7: 8 9 10 -- W: 2, S: 1, T: 180.000, Rj: 90.000 (idle: 7.667)
+Workstation 8: 13 14 -- W: 2, S: 0, T: 131.000, Rj: 65.500 (idle: 32.167)
+Workstation 9: 15 -- W: 1, S: 0, T: 96.000, Rj: 96.000 (idle: 1.667)
+Workstation 10: 16 -- W: 2, S: 0, T: 139.000, Rj: 69.500 (idle: 28.167)
+Workstation 11: 17 -- W: 2, S: 0, T: 116.000, Rj: 58.000 (idle: 39.667)
+Workstation 12: 18 -- W: 2, S: 0, T: 139.000, Rj: 69.500 (idle: 28.167)
+Workstation 13: 20 21 -- W: 2, S: 1, T: 194.000, Rj: 97.000 (idle: 0.667)
+Workstation 14: 22 23 -- W: 2, S: 0, T: 150.000, Rj: 75.000 (idle: 22.667)
+Workstation 15: 25 -- W: 1, S: 0, T: 46.000, Rj: 46.000 (idle: 51.667)
+Workstation 16: 26 -- W: 1, S: 0, T: 28.000, Rj: 28.000 (idle: 69.667)
+Workstation 17: 28 -- W: 3, S: 0, T: 230.000, Rj: 76.667 (idle: 21.000)
+Workstation 18: 29 30 -- W: 3, S: 1, T: 293.000, Rj: 97.667 (idle: 0.000)
+Workstation 19: 31 32 -- W: 1, S: 1, T: 67.000, Rj: 67.000 (idle: 30.667)
+Workstation 20: 33 -- W: 1, S: 0, T: 31.000, Rj: 31.000 (idle: 66.667)
+34 workers, 9 saved
+Wall time : 11.334s
+ 
+[FILE: Test\TestPL33-2.txt] [RUN: 1]  
+Optimal idleTime = 307.833 (R = 76.667, avgRj = 61.275)
+20 workstations
+Workstation 1: 1 4 19 -- W: 3, S: 1, T: 211.000, Rj: 70.333 (idle: 6.333)
+Workstation 2: 2 15 -- W: 2, S: 1, T: 131.000, Rj: 65.500 (idle: 11.167)
+Workstation 3: 3 25 -- W: 1, S: 1, T: 69.000, Rj: 69.000 (idle: 7.667)
+Workstation 4: 5 6 -- W: 3, S: 0, T: 198.000, Rj: 66.000 (idle: 10.667)
+Workstation 5: 7 -- W: 1, S: 0, T: 46.000, Rj: 46.000 (idle: 30.667)
+Workstation 6: 8 11 -- W: 1, S: 1, T: 76.000, Rj: 76.000 (idle: 0.667)
+Workstation 7: 9 10 12 -- W: 3, S: 2, T: 212.000, Rj: 70.667 (idle: 6.000)
+Workstation 8: 13 14 -- W: 2, S: 1, T: 131.000, Rj: 65.500 (idle: 11.167)
+Workstation 9: 16 -- W: 2, S: 0, T: 139.000, Rj: 69.500 (idle: 7.167)
+Workstation 10: 17 -- W: 2, S: 0, T: 116.000, Rj: 58.000 (idle: 18.667)
+Workstation 11: 18 -- W: 2, S: 0, T: 139.000, Rj: 69.500 (idle: 7.167)
+Workstation 12: 20 21 -- W: 3, S: 1, T: 194.000, Rj: 64.667 (idle: 12.000)
+Workstation 13: 22 23 -- W: 2, S: 1, T: 150.000, Rj: 75.000 (idle: 1.667)
+Workstation 14: 24 -- W: 1, S: 0, T: 35.000, Rj: 35.000 (idle: 41.667)
+Workstation 15: 26 -- W: 1, S: 0, T: 28.000, Rj: 28.000 (idle: 48.667)
+Workstation 16: 27 -- W: 1, S: 0, T: 46.000, Rj: 46.000 (idle: 30.667)
+Workstation 17: 28 -- W: 3, S: 0, T: 230.000, Rj: 76.667 (idle: 0.000)
+Workstation 18: 29 -- W: 2, S: 0, T: 139.000, Rj: 69.500 (idle: 7.167)
+Workstation 19: 30 31 32 -- W: 3, S: 2, T: 221.000, Rj: 73.667 (idle: 3.000)
+Workstation 20: 33 -- W: 1, S: 0, T: 31.000, Rj: 31.000 (idle: 45.667)
+39 workers, 11 saved
+Wall time : 12.175s
+ 
+[FILE: Test\TestPL35-1.txt] [RUN: 1]  
+Optimal idleTime = 92.567 (R = 39.500, avgRj = 34.055)
+17 workstations
+Workstation 1: 1 -- W: 1, S: 0, T: 35.000, Rj: 35.000 (idle: 4.500)
+Workstation 2: 2 22 -- W: 3, S: 1, T: 100.000, Rj: 33.333 (idle: 6.167)
+Workstation 3: 3 23 -- W: 1, S: 1, T: 32.000, Rj: 32.000 (idle: 7.500)
+Workstation 4: 4 8 9 -- W: 3, S: 1, T: 101.000, Rj: 33.667 (idle: 5.833)
+Workstation 5: 5 6 10 -- W: 3, S: 1, T: 101.000, Rj: 33.667 (idle: 5.833)
+Workstation 6: 7 -- W: 3, S: 0, T: 118.500, Rj: 39.500 (idle: 0.000)
+Workstation 7: 11 18 19 -- W: 1, S: 2, T: 38.500, Rj: 38.500 (idle: 1.000)
+Workstation 8: 12 13 -- W: 3, S: 1, T: 107.100, Rj: 35.700 (idle: 3.800)
+Workstation 9: 14 15 -- W: 1, S: 1, T: 38.000, Rj: 38.000 (idle: 1.500)
+Workstation 10: 16 20 -- W: 1, S: 1, T: 37.300, Rj: 37.300 (idle: 2.200)
+Workstation 11: 17 -- W: 1, S: 0, T: 23.200, Rj: 23.200 (idle: 16.300)
+Workstation 12: 21 -- W: 1, S: 0, T: 32.400, Rj: 32.400 (idle: 7.100)
+Workstation 13: 24 25 26 -- W: 3, S: 1, T: 92.900, Rj: 30.967 (idle: 8.533)
+Workstation 14: 27 28 -- W: 2, S: 1, T: 72.400, Rj: 36.200 (idle: 3.300)
+Workstation 15: 29 30 -- W: 1, S: 1, T: 36.000, Rj: 36.000 (idle: 3.500)
+Workstation 16: 31 32 -- W: 1, S: 1, T: 36.000, Rj: 36.000 (idle: 3.500)
+Workstation 17: 33 34 35 -- W: 2, S: 1, T: 55.000, Rj: 27.500 (idle: 12.000)
+31 workers, 14 saved
+Wall time : 15.117s
+ 
+[FILE: Test\TestPL35-2.txt] [RUN: 1]  
+Optimal idleTime = 92.567 (R = 39.500, avgRj = 34.055)
+17 workstations
+Workstation 1: 1 -- W: 1, S: 0, T: 35.000, Rj: 35.000 (idle: 4.500)
+Workstation 2: 2 22 -- W: 3, S: 1, T: 100.000, Rj: 33.333 (idle: 6.167)
+Workstation 3: 3 23 -- W: 1, S: 1, T: 32.000, Rj: 32.000 (idle: 7.500)
+Workstation 4: 4 5 8 -- W: 3, S: 2, T: 118.000, Rj: 39.333 (idle: 0.167)
+Workstation 5: 6 9 10 -- W: 3, S: 0, T: 84.000, Rj: 28.000 (idle: 11.500)
+Workstation 6: 7 -- W: 3, S: 0, T: 118.500, Rj: 39.500 (idle: 0.000)
+Workstation 7: 11 18 19 -- W: 1, S: 2, T: 38.500, Rj: 38.500 (idle: 1.000)
+Workstation 8: 12 13 -- W: 3, S: 1, T: 107.100, Rj: 35.700 (idle: 3.800)
+Workstation 9: 14 15 -- W: 1, S: 1, T: 38.000, Rj: 38.000 (idle: 1.500)
+Workstation 10: 16 20 -- W: 1, S: 1, T: 37.300, Rj: 37.300 (idle: 2.200)
+Workstation 11: 17 -- W: 1, S: 0, T: 23.200, Rj: 23.200 (idle: 16.300)
+Workstation 12: 21 -- W: 1, S: 0, T: 32.400, Rj: 32.400 (idle: 7.100)
+Workstation 13: 24 25 26 -- W: 3, S: 1, T: 92.900, Rj: 30.967 (idle: 8.533)
+Workstation 14: 27 28 -- W: 2, S: 1, T: 72.400, Rj: 36.200 (idle: 3.300)
+Workstation 15: 29 30 -- W: 1, S: 1, T: 36.000, Rj: 36.000 (idle: 3.500)
+Workstation 16: 31 32 -- W: 1, S: 1, T: 36.000, Rj: 36.000 (idle: 3.500)
+Workstation 17: 33 34 35 -- W: 2, S: 1, T: 55.000, Rj: 27.500 (idle: 12.000)
+31 workers, 14 saved
+Wall time : 13.781s
