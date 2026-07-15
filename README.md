@@ -16,7 +16,7 @@ The second line is the maximum allowable workers on the line N^{hat}.
 
 
 
-The next M lines describe the tasks, each line contains the task time for a task.
+The next M lines describe the tasks, each line contains the task time for a task as the 4th number on the line.
 
 
 
